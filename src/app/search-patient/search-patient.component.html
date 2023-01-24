@@ -1,1 +1,24 @@
-<p>search-patient works!</p>
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 style="text-align: center;">Search Patient</h1>
+                          <label for="" class="form-label">Patient Name</label>
+                          <input name="name" [(ngModel)]="name" type="text" class="form-control" placeholder="Enter Patient Name">
+                          <br>
+                          <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                            <button (click)="readValue()" class="btn btn-dark">Search</button>
+                          </div>
+                        </div>
+
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

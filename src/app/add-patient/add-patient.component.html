@@ -1,1 +1,39 @@
-<p>add-patient works!</p>
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <br>
+            <div class="card">
+                <div class="card-body">
+            <h1 style="text-align: center;">ADD PATIENTS</h1>
+            <br>
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Full Name</label>
+                   <input name="name" [(ngModel)]="name" type="text" class="form-control" placeholder="Enter your full name...">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Age</label>
+                    <input name="age" [(ngModel)]="age" type="text" class="form-control" placeholder="Enter your age...">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Department</label>
+                    <input name="department" [(ngModel)]="department" type="text" class="form-control" placeholder="Eg: Ortho/Neuro/Cardio...">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Doctor</label>
+                    <input name="doctor" [(ngModel)]="doctor" type="text" class="form-control" placeholder="Name of the doctor you want to meet...">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Date of Appointment</label>
+                    <input name="date" [(ngModel)]="date" type="date" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <button (click)="readValue()" class="btn btn-dark">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

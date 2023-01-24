@@ -9,6 +9,7 @@ import { ViewPatientComponent } from './view-patient/view-patient.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -24,7 +25,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
